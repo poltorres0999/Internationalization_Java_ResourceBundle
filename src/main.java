@@ -9,8 +9,8 @@ public class main {
         String country;
 
         if (args.length != 2) {
-            language = new String("en");
-            country = new String("US");
+            language = new String("ca");
+            country = new String("CA");
         } else {
             language = new String(args[0]);
             country = new String(args[1]);
